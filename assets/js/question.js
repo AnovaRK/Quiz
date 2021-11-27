@@ -23,101 +23,101 @@ let questions = [
     },
     {
         numb: 3,
-        question: "What does PHP stand for?",
-        answer: "Hypertext Preprocessor",
+        question: "How did the dinosaurs die out?",
+        answer: "An asteroid impact",
         options: [
-        "Hypertext Preprocessor",
-        "Hypertext Programming",
-        "Hypertext Preprogramming",
-        "Hometext Preprocessor"
+        "DANG IT! They didn't die. In fact they excreted on your car last Friday.",
+        "An asteroid impact",
+        "Because of the Ice age",
+        "A FLOOD 500 years ago"
         ]
     },
     {
         numb: 4,
-        question: "What does SQL stand for?",
-        answer: "Structured Query Language",
+        question: "What kind of small objects composes much of the universe?",
+        answer: "Atoms",
         options: [
-        "Stylish Question Language",
-        "Stylesheet Query Language",
-        "Statement Question Language",
-        "Structured Query Language"
+        "Atoms",
+        "Dark matter",
+        "Monster energy",
+        "Anti-matter"
         ]
     },
     {
         numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        question: "What's the shape of the Earth?",
+        answer: "Spheroid",
         options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language"
+        "Round",
+        "Flat",
+        "Has no shape",
+        "Spheroid"
         ]
     },
     {
-        numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        numb: 6,
+        question: 'Do South America and Africa fit together like a jigsaw puzzle?',
+        answer: 'Yes, they do!',
         options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language"
+            'UNICORNS DID IT 5000 YEARS AGO',
+            'Yes, they do!',
+            'HECK NO!',
+            'WORM KING DID IT'
         ]
     },
     {
-        numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        numb: 7,
+        question: 'Which science process skill involves using your five senses to describe what is seen, heard, felt, smelt, and tasted?',
+        answer: 'Observing',
         options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language"
+            'Observing',
+            'Predicting',
+            'Inferring',
+            'Measuring'
         ]
     },
     {
-        numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        numb: 8,
+        question: 'Which science process skill is an explanation of observations?',
+        answer: 'Inferring',
         options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language"
+            'Observing',
+            'Predicting',
+            'Inferring',
+            'Measuring'
         ]
     },
     {
-        numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        numb: 9,
+        question: 'Which science process skill uses numbers to describe an object?',
+        answer: 'Measuring',
         options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language"
+            'Observing',
+            'Predicting',
+            'Inferring',
+            'Measuring'
         ]
     },
     {
-        numb: 5,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        numb: 10,
+        question: "Which science process skill involves making up categories or grouping things together?",
+        answer: "Classifying",
         options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language"
+            'Observing',
+            'Classifying',
+            'Inferring',
+            'Measuring'
         ]
     },
     {
         numb: 11,
-        question: "What does XML stand for?",
-        answer: "eXtensible Markup Language",
+        question: "Which science process skill uses a test under controlled conditions?",
+        answer: "Experimenting",
         options: [
-        "eXtensible Markup Language",
-        "eXecutable Multiple Language",
-        "eXTra Multi-Program Language",
-        "eXamine Multiple Language"
+            'Observing',
+            'Experimenting',
+            'Inferring',
+            'Measuring'
         ]
     }
 ];
