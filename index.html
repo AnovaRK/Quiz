@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet" id="style">
+        <title>Quiz</title>
+    </head>
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">        <!-- Navigation Bar -->
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.jpg" width="50" height="50" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Sub-Menu</a>
+                            <a class="dropdown-item" href="#">Sub-Menu</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mt-120 mb-80">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card text-center">
+                        <div class="card-header">Start Quiz</div>
+                        <div class="card-body justify-content-center">
+                            <form class="index_form" name="index_form" onsubmit="submitForm(event)">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required autocomplete="off">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email address" required  autocomplete="off">
+                                </div>
+                                <button type="submit" class="btn btn-primary justify-content-center">Proceed</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="assets/js/index.js"></script>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet" id="style">
+        <title>Select Topic</title>
+    </head>
+  
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">        <!-- Navigation Bar -->
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.jpg" width="50" height="50" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Sub-Menu</a>
+                            <a class="dropdown-item" href="#">Sub-Menu</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mt-140 mb-80">
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="card-container text-center mb-40">
+                        <div class="card">
+                            <div class="front pt-80">
+                                <div class="first-content">
+                                    <div class="logo text-center mb-10 justify-content-center"><img src="assets/img/chemistry.png" class="logo-img"></div> 
+                                    <h5 class="card-title mt-10 mb-20">Science</h5>
+                                </div>
+                            </div>
+                            <div class="back container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Test your knowledge of science facts and applications through our awesome online science quizzes! Enhance your knowledge or learn something completely new by answering science quiz questions based on biology, chemistry, physiology, astronomy and more.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button class="btn btn-primary justify-content-center" type="submit" data-toggle="modal" data-target="#myModal">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card-container text-center mb-40">
+                        <div class="card">
+                            <div class="front pt-80">
+                                <div class="first-content">
+                                    <div class="logo text-center mb-10 justify-content-center"><img src="assets/img/news-report.png" class="logo-img justify-content-center"></div> 
+                                    <h5 class="card-title mt-10 mb-20">Current Affairs</h5>
+                                </div>
+                            </div>
+                            <div class="back container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>Do you know about current affairs? This quiz will show you how current affairs can affect the lives of people in other countries.</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button class="btn btn-primary justify-content-center" type="submit" data-toggle="modal" data-target="#myModal">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card-container text-center mb-40">
+                        <div class="card">
+                            <div class="front pt-80">
+                                <div class="first-content">
+                                    <div class="logo text-center mb-10 justify-content-center"><img src="assets/img/mathematics.png" class="logo-img"></div> 
+                                    <h5 class="card-title mt-10 mb-20">Maths</h5>
+                                </div>
+                            </div>
+                            <div class="back container">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p>maths is all about a challenge, a formula for success that is usually a little tricky to solve. But, to kick off your quiz night, let’s start with some simple maths questions, to get the trivia class in session!</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <button class="btn btn-primary justify-content-center" type="submit" data-toggle="modal" data-target="#myModal">Next</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Instructions</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <ul class="list">
+                            <li class="list-items">Each question has a time limit of 30 secs and after that next question appears.</li>
+                            <li class="list-items">Each question contains 1000 points.</li>
+                            <li class="list-items">Option to flip the question - users can use this option maximum 3 times in the entire quiz.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer buttons">
+                        <button type="submit" class="btn btn-primary" id="start"  data-toggle="modal" data-target="#quizModal">Start</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-lg" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="container mt-20 mb-20">
+                        <div class="row justify-content-center">
+                            <div class="quiz-details">
+                                <div class="col-md-4">
+                                    <div class="timer">
+                                        <p class="title">Time elapsed: </p><span class="sub-title"> 00:00:00</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="coins"><p class="score">0000</p><img src="assets/img/coins.png" class="coin-img" height="20" alt="coin"></div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="section-flip">
+                                        <p class="title">Flip the question:</p><span class="sub-title" id="flip-sub-title"> 3 Attempts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-12">
+                                <div class="card shadow mb-4">
+                                    <div class="card-body">
+                                        <div id="quizWrap"> 
+                                            <form method="POST" action="#" id="quizBox"  role="form" enctype="multipart/form-data">
+                                                <header>
+                                                    <div class="title">Quiz </div>
+                                                </header>
+                                                <div id="quiz">
+                                                    <div id="quizQuest" class="quizQn">fgd</div>
+                                                    <div id="quizOpt" class="quizAns">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quiz-buttons">
+                                    <button class="btn btn-primary justify-content-center mr-20" id="flip" type="button" onclick="flip()">Flip</button>
+                                    <button class="btn btn-primary justify-content-center next_btn">Next</button>
+                                </div>
+                                
+                            </div>
+                            <div class="col-md-12 mt-40">
+                                <div class="total_que">
+                                    <!-- Here I've inserted Question Count Number from JavaScript -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-lg" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content pb-20 pt-20 pl-20 pr-20">
+                    <p class="result message"></p>
+                    <p class="result scoreText"></p>
+                    <p class="result correctAnswer"></p>
+                    <p class="result totalTime"></p>
+                    <a href="result.html" class="leaderLink">See leaderboards</a>
+                </div>
+            </div>
+        </div>
+        <script src="assets/js/question.js"></script>
+        <script src="assets/js/quiz.js"></script>
+    </body>
+</html>

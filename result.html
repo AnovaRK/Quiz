@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet" id="style">
+		<link rel="stylesheet" type="text/css" href="assets/css/datatables.css">
+    </head>
+  
+    <body>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">        <!-- Navigation Bar -->
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.jpg" width="50" height="50" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Sub-Menu</a>
+                            <a class="dropdown-item" href="#">Sub-Menu</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mt-140 mb-80">
+            <div class="row justify-content-center leaderboards-leaders text-center">
+                <div class="col-sm-4">
+                    <div class="card shadow first mb-4">
+                        <div class="card-body">
+                            <img class="medal" src="assets/img/gold.png" >
+                            <span class="leader-name mt-20">TIM John</span>
+                            <p class="score">10000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card shadow second mb-4">
+                        <div class="card-body">
+                            <img class="medal" src="assets/img/silver.png" >
+                            <span class="leader-name mt-20">TIM John</span>
+                            <p class="score">9000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card shadow third mb-4">
+                        <div class="card-body">
+                            <img class="medal" src="assets/img/bronze.png" >
+                            <span class="leader-name mt-20">TIM John</span>
+                            <p class="score">8000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mb-80">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">RUNNER UPS</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table id="myTable" class="table table-bordered js-basic-example dataTable myTable">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Score</th>
+                                            <th>Topic</th>
+                                            <th>Rank</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Janne Alex</td>
+                                            <td>7000</td>
+                                            <td>Science</td>
+                                            <td>4th</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gabriel DAVID</td>
+                                            <td>6000</td>
+                                            <td>Science</td>
+                                            <td>5th</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jeroen Meijers</td>
+                                            <td>5000</td>
+                                            <td>Science</td>
+                                            <td>6th</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ray Torres</td>
+                                            <td>4000</td>
+                                            <td>Science</td>
+                                            <td>7th</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Willem van Gennip</td>
+                                            <td>3000</td>
+                                            <td>Science</td>
+                                            <td>8th</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Matan Sanbira</td>
+                                            <td>2000</td>
+                                            <td>Science</td>
+                                            <td>9th</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pierre Elloy</td>
+                                            <td>2000</td>
+                                            <td>Science</td>
+                                            <td>10th</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	    <script type="text/javascript" src="assets/js/datatables.min.js"></script>
+	    <script type="text/javascript" src="assets/js/dataTables.bootstrap4.min.js"></script>
+        <script>
+            $(document).ready( function () {
+                $('.myTable').DataTable();
+            } );
+        </script>
+        
+    </body>
+</html>
