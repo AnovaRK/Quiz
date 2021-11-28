@@ -10,10 +10,10 @@ let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
 let counter;
-let widthValue = 0;
 
 const next_btn = document.querySelector(".quiz-buttons .next_btn");
 const bottom_ques_counter = document.querySelector(".total_que");
+
 continue_btn.onclick = ()=>{
     $('#myModal').modal('hide');
     showQuetions(0);
